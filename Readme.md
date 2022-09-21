@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Никита Кутасов](https://up.htmlacademy.ru/htmlcss/35/user/2211367).
-* Наставник: `Неизвестно`.
+- Студент: [Никита Кутасов](https://up.htmlacademy.ru/htmlcss/35/user/2211367).
+- Наставник: `Станислав Михайлов https://htmlacademy.ru/profile/id139638`.
 
 ---
 
