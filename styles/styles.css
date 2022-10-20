@@ -1,0 +1,733 @@
+@font-face {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format ("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format ("woff2");
+  font-display: swap;
+}
+
+body {
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format ("woff2");
+  font-display: swap;
+  width: 1200px;
+  height: 64px;
+  margin: 0;
+  line-height: 93%;
+  vertical-align: top;
+}
+
+.navigation {
+  width: 1200px;
+  display: flex;
+}
+
+.navigation-list-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantange-list {
+  margin: 0 auto;
+}
+
+.advantange {
+  /* border: 1px solid #000000; */
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+li {
+  font-size: 20px;
+}
+
+.block-section-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.block-info {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format ("woff2");
+  font-display: swap;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 96px 398px 20px 398px;
+}
+
+.info {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.subscription-input {
+  width: 452px;
+  height: 52px;
+}
+
+.subscription-botton {
+  width: 232px;
+  height: 52px;
+}
+
+.subscription-text {
+  font-family: "PT sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main-title-h {
+  width: 620px;
+  margin: 69px 290px 20px 290px;
+  color: #000000;
+  text-transform: uppercase;
+   font-size: 25px;
+  height: 72px;
+  
+  
+}
+
+.suggestions {
+  margin: 0px 304px 54px 304px;
+}
+.advantange-discription-white {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  src: url("../fonts/pt-sans-regular.woff2") format ("woff2");
+  font-display: swap;
+  padding: 0;
+  margin: 62px 85px 111px 85px;
+  color: #ffffff;
+}
+
+.differences {
+  width: 650px;
+  margin: 25px 275px 90px 275px;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  line-height: 26px;
+}
+
+.hotel-search {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  padding: 8px 50px;
+  text-transform: uppercase;
+}
+
+.main-block {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/index-background.jpg");
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.advantange-item-5 {
+  background-image: url(images/VectorHome.svg);
+  width: 75px;
+  height: 72px;
+  background-repeat: no-repeat;
+}
+
+.advantange-item-6 {
+  background-image: url(images/food.svg);
+  width: 74px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+.navigation-link-button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+}
+
+.advantange-title {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 182px 85px 30px 85px;
+  padding: 0;
+}
+
+.advantange-title-black {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 90px 112px 30px 112px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantange-discription {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0px;
+  margin: 0px 85px 81px 85px;
+  color: black;
+}
+
+.advantange-item-4 {
+  background-color: rgba(131, 179, 211, 0.12);
+
+  width: 400px;
+}
+
+.advantange-item-5 {
+  width: 400px;
+}
+
+.advantange-title-white {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 92px 112.5px 30px 112.5px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.advantange-discription {
+  font-family: "PT sans", sans-serif;
+    font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+}
+.advantange-item-7 {
+  background-image: url(images/VectorSuvenir.svg);
+  width: 64px;
+  height: 76px;
+  background-repeat: no-repeat;
+}
+
+.subscription {
+  margin: 0 auto;
+  background-image: url(../images/bgimage.jfif);
+  width: 1200px;
+  min-height: 414.86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-block {
+
+  background-image: url(../images/mainbg.jpg);
+  width: 1200px;
+  height: 412px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  
+
+}
+.navigation-item {
+  font-family: "PT sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navigation-list {
+  display: flex;
+  margin: 0;
+  padding: 20px 16px;
+  margin-left: 30px;
+}
+
+.navigation-user {
+  width: 268px;
+
+  margin-right: 70px;
+
+  padding: 0;
+}
+
+.botton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 14px;
+  background-color: brown;
+  width: 160px;
+  height: 36px;
+}
+.main-header-logo {
+  width: 138px;
+  height: 64px;
+  margin-left: 70px;
+}
+.visually-hidden {
+  display: none;
+}
+
+.navigation-item-search {
+  background-image: url(images/VectorSearch.svg);
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 64px;
+
+  /* margin: 0 auto; */
+}
+
+.navigation-item-heart {
+  background-image: url(images/favorites.svg);
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 64px;
+
+  /* margin: 0 auto; */
+}
+.logo-sedona {
+  margin-top: 51px;
+}
+
+.overview-icons1 {
+  background-image: url(images/panel1.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 14px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.overview-icons2 {
+  background-image: url(images/panel2.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 14px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.overview-icons3 {
+  background-image: url(images/panel3.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 14px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  width: 1200px;
+}
+
+.footer-social-VK {
+  background-image: url(../images/VectorVK.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 14px;
+  margin-right: 26.33px;
+}
+.footer-social-TELEGRAMM {
+  background-image: url(../images/VectorTelegramm.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 14px;
+}
+
+  .footer-social-YOUTUBE {
+    background-image: url(../images/VectorYoutube.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 14px;
+  }
+
+  li {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .navigation-link {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 16px;
+    text-align: center;
+  }
+
+  .advantange-item-1 {
+    width: 400px;
+    height: 384px;
+    padding: 0;
+    background-color: #82b3d3;
+  }
+
+  .city {
+    width: 800px;
+  }
+
+  .advantange-item-3 {
+    width: 400px;
+    height: 384px;
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+  .number {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+  }
+
+  header {
+   
+    width: 1200px;
+    height: 64px;
+  }
+
+  .element {
+    padding: 15px;
+  }
+
+  .main {
+    width: 1200px;
+    height: 64px;
+  }
+
+  .Vectorwhite {
+    background-repeat: no-repeat;
+    margin-bottom: -5px;
+  }
+
+  .section-block-wrapper {
+    
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+
+
+  }
+
+  .hotels-sedona {
+    font-family: "PT sans", sans-serif;
+    font-size: 60px;
+    font-style: bold;
+    color: #ffffff;
+    margin: 0;
+    line-height: 78px;
+    line-height: 100%;
+    padding: 10px 0px;
+   
+  }
+
+  .hotels {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+.catalog-filter-group {
+  margin: 0 auto;
+  width: 1060px;
+  display: flex;
+
+}
+
+.catalog-wrapper {
+   width: 371px; 
+   height: 157px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+}
+
+  .catalog-filter-title {
+    font-family: "PT sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 32px;
+  }
+
+  .catalog-filter-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .catalog-filter-item {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .catalog-filter-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    margin-left: 140.15px;
+    
+  }
+
+  .apply-botton {
+    width: 191px;
+    height: 36px;
+    margin-bottom: 32px;
+    background-color: #82B3D3;
+  }
+
+  .button-reset {
+    width: 191px;
+    height: 36px;
+    background-color:rgba(0, 0, 0, 0);
+  }
+
+  .boottons {
+    width: 261px;
+    
+    margin-bottom: 0;
+    margin-top: 56px;
+  }
+
+.search-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.search-results {
+width: 1060px;
+display: flex;
+flex-direction: row;
+align-items: baseline;
+
+
+}
+  .input-class {
+    width: 143px;
+    height: 48px;
+  }
+
+.product-list {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.product-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 896px;
+  margin-left: 70px;
+  margin-right: 0px;
+  
+
+ 
+  align-items: baseline;
+  border: 1px solid black;
+}
+  
+.product-card {
+  height: 438px;
+  width: 340px;
+margin: 0 auto;
+
+  border: 1px solid black;
+}
+
+.product-card-image {
+  padding: 20px 20px 16px 20px;
+}
+
+  .apply-text {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .button-reset {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .Pages-found {
+    font-family: "PT sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 56.5px 70px;
+  
+   
+  }
+
+  .select-control {
+    width: 292px;
+    height: 49px;
+   
+  }
+  .cheap {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+  }
+
+  .product-card-image {
+    font-family: "PT sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+  }
+
+  a {
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .product-card-type {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+  }
+
+  .product-card-button {
+    font-family: "PT sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .button-more {
+    font-family: "PT sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .product-card-price {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+  }
+
+  .button-more-1 {
+    font-family: "PT sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+
+  .pagination-link {
+    font-family: "PT sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .pagination-link-black {
+    font-family: "PT sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+  }
+}
