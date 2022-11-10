@@ -905,9 +905,70 @@ body {
 
 .search-wrapper {
   width: 1060px;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   background-color: #ffffff;
   padding: 50px 70px 60px;
+}
+
+.card-control {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.control-input + label {
+  cursor: pointer;
+
+}
+.control-input:focus + label  {
+  border: 2px solid #68a2ca;
+}
+
+.control-input:hover + label  {
+  border: 2px solid #68a2ca;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.hover-visual:hover {
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  transform: scale(1.02);
+}
+
+.control-input:checked + label {
+  border: 2px solid black;
+}
+
+.control-input-visual:checked ~ ul {
+  display: block;
+  margin: 0;
+}
+
+.control-input-visual:checked ~ ul .product-card {
+  display: flex;
+  flex-direction: row;
+  min-height: 230px;
+}
+
+.control-input-visual:checked ~ ul .product-card-info {
+  margin-left: 40px;
+}
+
+.control-input + label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: 10px;
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
 }
 
 .search-results {
